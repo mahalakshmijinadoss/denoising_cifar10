@@ -1,6 +1,6 @@
 # Convolutional Denoising Autoencoder for CIFAR-10
 
-This repository contains the python notebook for implementation of a **Convolutional Autoencoder** designed to remove noise from CIFAR-10 images. The model is trained using **Keras**
+This repository contains the Python notebook for the implementation of a **Convolutional Autoencoder** designed to remove noise from CIFAR-10 images. The model is trained using **Keras**
 
 ## Features
 
@@ -13,9 +13,9 @@ This repository contains the python notebook for implementation of a **Convoluti
 
 ### Encoder:
 - Consists of **three convolutional (Conv2D) layers**, each followed by **BatchNormalization** and **MaxPooling (MaxPool2D)** for feature extraction and dimensionality reduction
-- **No dropout** is used in the model, ensuring that all learned features contribute to reconstruction
+- **No dropout** is used in the model, ensuring that all learned features contribute to the reconstruction
 - **Skip connections** are incorporated to retain and restore essential information lost during convolution and deconvolution, enhancing the quality of the reconstructed images
 
-![Examples for Denoised images](denoised_images.png)
+![Examples for Denoised images](denoised.png)
 
 
