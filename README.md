@@ -15,3 +15,5 @@ This repository contains the python notebook for implementation of a **Convoluti
 - Consists of **three convolutional (Conv2D) layers**, each followed by **BatchNormalization** and **MaxPooling (MaxPool2D)** for feature extraction and dimensionality reduction
 - **No dropout** is used in the model, ensuring that all learned features contribute to reconstruction
 - **Skip connections** are incorporated to retain and restore essential information lost during convolution and deconvolution, enhancing the quality of the reconstructed images
+
+![Examples for Denoised images](https://your-image-url.com/denoised_images.png)
