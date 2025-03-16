@@ -16,6 +16,13 @@ This repository contains the Python notebook for the implementation of a **Convo
 - **No dropout** is used in the model, ensuring that all learned features contribute to the reconstruction
 - **Skip connections** are incorporated to retain and restore essential information lost during convolution and deconvolution, enhancing the quality of the reconstructed images
 
-![Examples for Denoised images](denoised.png)
+
+
+
+
+The image below shows the result of the denoising process.
+
+![Denoised Image](https://github.com/mahalakshmijinadoss/denoising_cifar10/blob/master/denoised.png)
+
 
 
