@@ -16,4 +16,6 @@ This repository contains the python notebook for implementation of a **Convoluti
 - **No dropout** is used in the model, ensuring that all learned features contribute to reconstruction
 - **Skip connections** are incorporated to retain and restore essential information lost during convolution and deconvolution, enhancing the quality of the reconstructed images
 
-![Examples for Denoised images](https://your-image-url.com/denoised_images.png)
+![Examples for Denoised images](denoised_images.png)
+
+
